@@ -35,7 +35,9 @@ git clone https://github.com/LorenzoGianassi/Land-Diffuser.git
 
 # Inference <a name="5"/>
 1. Download the pretrained model from [here](https://drive.google.com/drive/folders/1h0l8cMUh_7GVedJykYH8zSEqNhj3BVeJ?usp=sharing) and place it in the  and "S2D/Results" directories.
-2. Run the GUI demo using "ddpm_demo.py".
+2. Change paths in parser to follow folders used locally
+3. Run the demo using "ddpm_demo.py" to generate a video.
+
 # Authors
 - **Lorenzo Gianassi**
 # Acknowledgments
