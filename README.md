@@ -18,8 +18,8 @@ To run the code, you need to install the following dependencies:
 - Trimesh 3.22.1
 - Librosa 3.9.2
 - Transformers 4.6.1 from Hugging Face
-- MPI-IS for mesh rendering (link)
-Additional dependencies for running the demo: pysimplegui==4.60.5, sounddevice==0.4.6, soundfile==0.12.
+- MPI-IS for mesh rendering [link](https://github.com/MPI-IS/mesh)
+
 
 # Dataset <a name="3"/>
 For our experiments, we used the VOCAset dataset, which consists of 12 actors, evenly split between males and females. Each actor recorded 40 unique sentences, with duration ranging from 3 to 5 seconds. This dataset includes high-quality audio recordings and 3D facial reconstructions for every frame, captured at a frame rate of 60 frames per second. To facilitate our experiments, we divided the dataset into three separate subsets: one for training, one for validation, and one for testing. The training subset contained data from 8 actors, while the validation and test subsets each included data from 2 actors.     
